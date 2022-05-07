@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143FF8952826AFAF00B422A0 /* GitHub Integration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143FF8942826AFAF00B422A0 /* GitHub Integration.swift */; };
 		148C1C0D2818D8B70082D9FB /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148C1C0C2818D8B70082D9FB /* AlbumTableViewCell.swift */; };
 		14C8469028163D0F00D0A1E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8468F28163D0F00D0A1E5 /* AppDelegate.swift */; };
 		14C8469228163D0F00D0A1E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8469128163D0F00D0A1E5 /* SceneDelegate.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		143FF8942826AFAF00B422A0 /* GitHub Integration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GitHub Integration.swift"; sourceTree = "<group>"; };
 		148C1C0C2818D8B70082D9FB /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
 		14C8468C28163D0F00D0A1E5 /* SwiftMiniProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMiniProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C8468F28163D0F00D0A1E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				14CB474328265AF100C59309 /* Custom View */,
 				14CB47402826584100C59309 /* View Model */,
 				14CB473E28264E5A00C59309 /* LoginViewController.swift */,
+				143FF8942826AFAF00B422A0 /* GitHub Integration.swift */,
 			);
 			path = ViewModelPractice;
 			sourceTree = "<group>";
@@ -394,6 +397,7 @@
 				14CB474528265B4800C59309 /* BindingTextField.swift in Sources */,
 				14DE9DBE2817B6A0001AF0AF /* Album.swift in Sources */,
 				14CB4742282659DC00C59309 /* LoginViewModel.swift in Sources */,
+				143FF8952826AFAF00B422A0 /* GitHub Integration.swift in Sources */,
 				14C8469228163D0F00D0A1E5 /* SceneDelegate.swift in Sources */,
 				14DE9DC32817DEB8001AF0AF /* MediaPlayer.swift in Sources */,
 				14CB473F28264E5A00C59309 /* LoginViewController.swift in Sources */,
