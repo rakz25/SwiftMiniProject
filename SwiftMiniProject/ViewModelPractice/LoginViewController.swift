@@ -35,7 +35,7 @@ class LoginViewController: UIViewController {
         
         let usernameTextField = BindingTextField()
        usernameTextField.borderStyle = .roundedRect
-       usernameTextField.placeholder = "Enter Username"
+       usernameTextField.placeholder = "Enter First Username"
        usernameTextField.backgroundColor = UIColor.lightGray
        usernameTextField.bind { [weak self] text in
            self?.loginVM.username = text
