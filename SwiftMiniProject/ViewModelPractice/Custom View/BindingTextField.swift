@@ -27,6 +27,7 @@ class BindingTextField : UITextField {
     private func commonInit() {
         
         addTarget(self, action: #selector(didTapChanged), for: .editingChanged)
+        
     }
     
     // Make sure to bind didChanged and didTapChanged
