@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		143FF8952826AFAF00B422A0 /* GitHub Integration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143FF8942826AFAF00B422A0 /* GitHub Integration.swift */; };
 		148C1C0D2818D8B70082D9FB /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148C1C0C2818D8B70082D9FB /* AlbumTableViewCell.swift */; };
+		14AC5879282B758C00CB14AB /* NewLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AC5878282B758C00CB14AB /* NewLoginViewController.swift */; };
+		14AC587B282BC1F400CB14AB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AC587A282BC1F400CB14AB /* ViewModel.swift */; };
 		14C8469028163D0F00D0A1E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8468F28163D0F00D0A1E5 /* AppDelegate.swift */; };
 		14C8469228163D0F00D0A1E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8469128163D0F00D0A1E5 /* SceneDelegate.swift */; };
 		14C8469428163D0F00D0A1E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8469328163D0F00D0A1E5 /* ViewController.swift */; };
@@ -51,6 +53,8 @@
 /* Begin PBXFileReference section */
 		143FF8942826AFAF00B422A0 /* GitHub Integration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GitHub Integration.swift"; sourceTree = "<group>"; };
 		148C1C0C2818D8B70082D9FB /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		14AC5878282B758C00CB14AB /* NewLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLoginViewController.swift; sourceTree = "<group>"; };
+		14AC587A282BC1F400CB14AB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		14C8468C28163D0F00D0A1E5 /* SwiftMiniProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMiniProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C8468F28163D0F00D0A1E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14C8469128163D0F00D0A1E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +127,15 @@
 			path = "Audio recordings";
 			sourceTree = "<group>";
 		};
+		14AC5877282B749400CB14AB /* Delegate-Protocol MvvM Practice */ = {
+			isa = PBXGroup;
+			children = (
+				14AC5878282B758C00CB14AB /* NewLoginViewController.swift */,
+				14AC587A282BC1F400CB14AB /* ViewModel.swift */,
+			);
+			path = "Delegate-Protocol MvvM Practice";
+			sourceTree = "<group>";
+		};
 		14C8468328163D0F00D0A1E5 = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +159,7 @@
 		14C8468E28163D0F00D0A1E5 /* SwiftMiniProject */ = {
 			isa = PBXGroup;
 			children = (
+				14AC5877282B749400CB14AB /* Delegate-Protocol MvvM Practice */,
 				14CB473D28264E2400C59309 /* ViewModelPractice */,
 				148C1C0A2818D50B0082D9FB /* Music Player */,
 				14C8468F28163D0F00D0A1E5 /* AppDelegate.swift */,
@@ -393,8 +407,10 @@
 				148C1C0D2818D8B70082D9FB /* AlbumTableViewCell.swift in Sources */,
 				14C8469028163D0F00D0A1E5 /* AppDelegate.swift in Sources */,
 				14C846C02816409200D0A1E5 /* SecondVC.swift in Sources */,
+				14AC587B282BC1F400CB14AB /* ViewModel.swift in Sources */,
 				14DE9DC6281815B6001AF0AF /* MusicPlayerVC.swift in Sources */,
 				14CB474528265B4800C59309 /* BindingTextField.swift in Sources */,
+				14AC5879282B758C00CB14AB /* NewLoginViewController.swift in Sources */,
 				14DE9DBE2817B6A0001AF0AF /* Album.swift in Sources */,
 				14CB4742282659DC00C59309 /* LoginViewModel.swift in Sources */,
 				143FF8952826AFAF00B422A0 /* GitHub Integration.swift in Sources */,

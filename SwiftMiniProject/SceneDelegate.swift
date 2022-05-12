@@ -23,7 +23,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         
         //MARK: View Model Practice Project
-        window?.rootViewController = UINavigationController(rootViewController: LoginViewController())
+        //window?.rootViewController = UINavigationController(rootViewController: LoginViewController())
+        window?.rootViewController = UINavigationController(rootViewController: NewLoginViewController())
            //Instead of UIViewController() we initilise our initial viewController
         
         window?.makeKeyAndVisible()
